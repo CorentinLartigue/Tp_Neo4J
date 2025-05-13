@@ -21,13 +21,11 @@ Postman pour tester les routes
 
 ## 🧱 Installation
 1. Cloner le projet
-   ``` git clone https://github.com/CorentinLartigue/Tp_Neo4J.git ```
-   ``` cd Tp_Neo4J ```
-
-2. Installer les dépendances Python
+   ``` git clone https://github.com/CorentinLartigue/Tp_Neo4J.git cd Tp_Neo4J ```
+3. Installer les dépendances Python
    ``` pip install flask py2neo ```
 
-3. Lancer Neo4j avec Docker
+4. Lancer Neo4j avec Docker
   ``` docker run --name neo4j -d \
   -p 7474:7474 -p 7687:7687 \
   -e NEO4J_AUTH=neo4j/password \
