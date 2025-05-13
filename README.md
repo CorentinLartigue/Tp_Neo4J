@@ -21,7 +21,9 @@ Postman pour tester les routes
 
 ## 🧱 Installation
 1. Cloner le projet
-   ``` git clone https://github.com/CorentinLartigue/Tp_Neo4J.git cd Tp_Neo4J ```
+   ``` git clone https://github.com/CorentinLartigue/Tp_Neo4J.git \
+    cd Tp_Neo4J
+   ```
 3. Installer les dépendances Python
    ``` pip install flask py2neo ```
 
